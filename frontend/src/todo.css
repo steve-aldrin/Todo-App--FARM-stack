@@ -1,0 +1,51 @@
+.registercard{
+    text-align: center;
+       border: solid;
+       border-width: 0.01em;
+       width: min-content;
+       border-radius: 10px;
+       margin: 20vh auto;
+       padding: 0 3em 5em 3em;
+   }
+
+   .form{
+    margin-top: 3em;
+  }
+  .buttonsign{
+    border: solid;
+    padding: 1em 15em 1em 15em;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 3em;
+    border-width: 0.1em;
+    border-radius:6px ;
+    background-color: #394867;
+  }
+  input{
+    margin-bottom: 2em;
+    border: solid;
+    border-width: 1px;
+    border-radius:6px ;
+    padding: 1em 15em 1em 2em;
+   
+}
+::-webkit-input-placeholder {
+    text-align: left;
+  }
+  
+  :-moz-placeholder {
+    text-align: left;
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #394867;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #394867;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #394867;
+  }

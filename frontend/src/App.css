@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  color: #F1F6F9;
+}
+.body{
+  background-color: #212A3E;
+  color: #F1F6F9;
+ 
+}
+.Title{
+  color: #F1F6F9;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.wrapper{
+  display: flex;
+}
