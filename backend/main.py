@@ -12,14 +12,14 @@ update_todo,
 remove_todo,
 
 )
-origins  = ['https://localhost:3000']
+origins  = ['http://127.0.0.1:8000/api/todo']
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=['*'],
     allow_credentials=True,
     allow_methods=["*"],
-    allow_headers=[""],
+    allow_headers=["*"],
 )
 @app.get("/")
 def read_root():
@@ -27,7 +27,7 @@ def read_root():
 
 @app.get("/api/todo")
 async def get_todo():
-    response =await fetch_all_todos
+    response =await fetch_all_todos()
     return response
 
 @app.get("/api/todo{title}",response_model=Todo)
